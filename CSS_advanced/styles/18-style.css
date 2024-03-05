@@ -118,7 +118,7 @@ a:active {
     --nav-item-letter-spacing: 4%;
     --nav-item-display: inline-block;
     --nav-item-margin: calc(3 * 1rem);
-    --nav-item-link-hover: var(--color-primary)
+    --nav-item-link-hover: var(--color-primary);
 }
 
 h1,
