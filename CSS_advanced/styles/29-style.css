@@ -223,7 +223,7 @@ h6 {
     color: var(--nav-item-link-hover);
 }
 
-.nav-link::before nav {
+nav.nav-link::before {
     content: "empty";
     position: absolute;
     top: 0;
@@ -233,7 +233,7 @@ h6 {
     height: 0.2rem;
 }
 
-.nav-item:hover .nav-link::before nav {
+nav.nav-item:hover .nav-link::before {
     background-color: var(--color-primary);
     width: 100%;
 }
