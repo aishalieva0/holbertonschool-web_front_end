@@ -144,13 +144,16 @@ a:active {
     padding-top: 45%;
 }
 
-.card-title::after .card-work::after {
+.card-title::after .card-work a::after {
     position: absolute;
-    position: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
     content: '';
 }
 
-.card-title .card-work:hover {
+.card-work:hover .card-title {
     opacity: 1;
 }
 
